@@ -1,13 +1,17 @@
 using System.IO.Compression;
 using System.Runtime.CompilerServices;
 
-var root = GetProjectRootFolder();
-var rosters = Directory.GetFiles(Path.Combine(root, "rosters"), "*.ros", SearchOption.AllDirectories);
+var rootDirectory = GetProjectRootFolder();
+var rostersDirectory = Path.Combine(rootDirectory, "rosters");
+var rosters = Directory.GetFiles(rostersDirectory, "*.ros", SearchOption.AllDirectories);
 foreach (var rosPath in rosters)
 {
     var rosFileName = Path.GetFileName(rosPath);
-    var roszFileName = Path.ChangeExtension(rosFileName, "rosz");
-    var roszPath = Path.Combine(root, "artifacts", roszFileName);
+    var rosPathRelativeToRosters = Path.GetRelativePath(rostersDirectory, rosPath);
+    var roszFileName = Path.ChangeExtension(rosPathRelativeToRosters, "rosz")
+        .Replace(Path.DirectorySeparatorChar, '-')
+        .Replace(Path.AltDirectorySeparatorChar, '-');
+    var roszPath = Path.Combine(rootDirectory, "artifacts", roszFileName);
 
     using var outputStream = File.Open(roszPath, FileMode.Create, FileAccess.Write);
     using var archive = new ZipArchive(outputStream, ZipArchiveMode.Create);
