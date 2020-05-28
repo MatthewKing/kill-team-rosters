@@ -1,0 +1,987 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<roster id="22dc-687f-3bbf-5e26" name="GlassHalfDead&apos;s Infiltrator list" battleScribeVersion="2.03" gameSystemId="a467-5f42-d24c-6e5b" gameSystemName="Warhammer 40,000: Kill Team (2018)" gameSystemRevision="39" xmlns="http://www.battlescribe.net/schema/rosterSchema">
+  <costs>
+    <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="125.0"/>
+  </costs>
+  <forces>
+    <force id="1afc-cca5-04dd-9514" name="Kill Team List" entryId="cf61-9e5a-51cd-b4d2" catalogueId="ff2c-d2cf-bc85-3c79" catalogueRevision="22" catalogueName="Adeptus Mechanicus">
+      <rules>
+        <rule id="c7c2-df0d-8e87-81fa" name="Relentless March (Metalica)" hidden="false">
+          <description>Models in your kill team can shoot Rapid Fire weapons as if they were Assault weapons in the Shooting phase of a battle round in which they Advanced (e.g. a Rapid Fire 1 weapon would be used as if it were an Assault 1 weapon). In addition, models in your kill team do not suffer the penalty to their hit rolls for shooting Assault weapons during a battle round in which they Advanced.</description>
+        </rule>
+      </rules>
+      <selections>
+        <selection id="ecc7-9158-3de7-69e6" name="List Configuration" entryId="5c5e-a332-5578-705f::24de-9906-6401-a20e" number="1" type="upgrade">
+          <selections>
+            <selection id="d468-10f4-c339-e360" name="Matched Play: Kill Team" entryId="5c5e-a332-5578-705f::46a8-9e97-401a-03f7" entryGroupId="5c5e-a332-5578-705f::a763-c901-e2be-22eb" number="1" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+              <categories>
+                <category id="b2ac-46f8-c1b2-3d20" name="Style: Matched" entryId="c502-39de-965b-6780" primary="false"/>
+                <category id="4c73-e060-f444-0355" name="List: Kill Team" entryId="beaf-798d-961f-353d" primary="false"/>
+                <category id="3a42-9f0f-f0bc-1613" name="List: Battle-Forged Kill Team" entryId="c0f7-c442-b695-bf07" primary="false"/>
+              </categories>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="0815-61d6-0786-2c88" name="Configuration" entryId="f868-bdfd-567c-3eac" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="551e-3f1c-ab74-67d9" name="Skitarii Vanguard Alpha" entryId="f163-6313-0b22-5464::72cb-2c09-5b9f-21af" number="1" type="model">
+          <rules>
+            <rule id="f163-6313-0b22-5464::3e3f-6b9c-0948-21a8::da55-b94a-f55a-6538" name="Canticles of the Omnissiah" hidden="false">
+              <description>See page 107 of the Kill Team Core Manual.</description>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="f163-6313-0b22-5464::f1cf-521a-830e-068d" name="Skitarii Vanguard Alpha" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">6&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">4+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">3+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">3</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">3</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">2</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">7</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">4+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">1</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="f163-6313-0b22-5464::50a5-5338-6e4c-984a::4522-7ed7-84c1-b986" name="Bionics" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">This model has a 6+ invulnerable save.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="f163-6313-0b22-5464::f828-3f99-a9ed-ad6a::99af-ad82-34e5-9f45" name="Rad-saturation" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">Reduce the Toughness characteristic of enemy models by 1 whilst they are within 1&quot; of one or more models with this ability.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="454e-88fb-1981-fa6b" name="Leader" entryId="f163-6313-0b22-5464::ca70-6e9a-710c-3c34::e19b-6d6b-cf3a-10be::2abd-70f4-e7e8-4d18" entryGroupId="f163-6313-0b22-5464::ca70-6e9a-710c-3c34::5ae8-c885-6dc3-74b0" number="1" type="upgrade">
+              <selections>
+                <selection id="8437-d054-14d0-d0b2" name="Level 1: Resourceful" entryId="f163-6313-0b22-5464::ca70-6e9a-710c-3c34::e19b-6d6b-cf3a-10be::49c6-1aa8-c120-1cf1" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="f163-6313-0b22-5464::ca70-6e9a-710c-3c34::e19b-6d6b-cf3a-10be::0827-f431-3c0e-66c0::b8d6-5870-939e-3cdf" name="Resourceful" publicationId="a467-5f42-pubN89361" page="68" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+                      <characteristics>
+                        <characteristic name="Description" typeId="b373-019d-503a-1124">As long as this model is on the battlefield and not shaken, you gain an additional Command Point at the beginning of the battle round.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                  </costs>
+                  <categories>
+                    <category id="0e1b-cfc5-6180-455c" name="Level 1" entryId="6e29-5d9a-98f5-ad2a" primary="false"/>
+                  </categories>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="6585-dd48-eea0-cbdd" name="Taser goad" entryId="f163-6313-0b22-5464::6ccf-c78d-b31e-49a5::222f-a507-d231-eb60" entryGroupId="f163-6313-0b22-5464::2fb4-312a-bac5-0095" number="1" type="upgrade">
+              <profiles>
+                <profile id="f163-6313-0b22-5464::6ccf-c78d-b31e-49a5::5b74-af58-2d82-ce4e" name="Taser goad" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">+2</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">Each hit roll of 6+ with this weapon causes 3 hits rather than 1.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="1.0"/>
+              </costs>
+            </selection>
+            <selection id="c1f1-70b7-a0d6-8d68" name="Phosphor blast pistol" entryId="f163-6313-0b22-5464::8b14-08db-414b-b6d7::13e7-9b0f-68cb-d878" entryGroupId="f163-6313-0b22-5464::0e42-a613-01bb-211b" number="1" type="upgrade">
+              <profiles>
+                <profile id="f163-6313-0b22-5464::8b14-08db-414b-b6d7::7a55-b6fb-2ee2-db81" name="Phosphor blast pistol" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">12&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Pistol 1</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">5</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">-1</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">Attacks made with this weapon do not suffer the penalty to hit rolls for the target being obscured.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="a225-c383-eece-0fbf" name="Metalica" entryId="f163-6313-0b22-5464::5a86-fce0-5aa0-7453::3fb2-e102-4e52-cdb8" entryGroupId="f163-6313-0b22-5464::5a86-fce0-5aa0-7453::3cd7-fd53-f027-c343" number="1" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+              <categories>
+                <category id="850c-de8c-b67b-749c" name="Metalica" entryId="9e2f-9f27-4293-8bba" primary="false"/>
+              </categories>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="10.0"/>
+          </costs>
+          <categories>
+            <category id="54a9-4f8d-463a-eed2" name="Faction: Adeptus Mechanicus" entryId="5d67-ac66-1e97-ffb3" primary="false"/>
+            <category id="cd75-74c6-2649-176e" name="Imperium" entryId="8d6d-8c4b-f475-e74a" primary="false"/>
+            <category id="cc32-c1d1-28ba-0f2e" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="3cc8-93ed-ca6c-648d" name="Skitarii" entryId="4b87-3b12-d261-3807" primary="false"/>
+            <category id="2941-c120-9af3-2573" name="Skitarii Vanguard" entryId="fea9-19fc-c84f-f079" primary="false"/>
+            <category id="a16e-28f4-ec7e-abc3" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="4d9d-1061-4828-c5f1" name="Leader" entryId="ade4-0710-e40e-be3f" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="b693-6811-534c-55d8" name="Skitarii Vanguard Gunner" entryId="73da-44ae-248a-eb76::669b-1926-9636-366b" number="1" type="model">
+          <rules>
+            <rule id="73da-44ae-248a-eb76::c7be-59d0-8456-0a18::da55-b94a-f55a-6538" name="Canticles of the Omnissiah" hidden="false">
+              <description>See page 107 of the Kill Team Core Manual.</description>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="73da-44ae-248a-eb76::419a-4935-f26c-178a" name="Skitarii Vanguard Gunner" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">6&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">4+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">3+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">3</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">3</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">1</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">6</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">4+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">3</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="73da-44ae-248a-eb76::8d4e-9f48-d21b-fb1d::4522-7ed7-84c1-b986" name="Bionics" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">This model has a 6+ invulnerable save.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="73da-44ae-248a-eb76::8f9b-0ea5-8dee-2dc6::99af-ad82-34e5-9f45" name="Rad-saturation" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">Reduce the Toughness characteristic of enemy models by 1 whilst they are within 1&quot; of one or more models with this ability.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="d59c-c65a-546b-b9c7" name="Sniper" entryId="73da-44ae-248a-eb76::19ec-9c86-9fca-cf36::b2fa-3290-47b5-ca72::ead5-ea32-5412-c857" entryGroupId="73da-44ae-248a-eb76::19ec-9c86-9fca-cf36::5ae8-c885-6dc3-74b0" number="1" type="upgrade">
+              <selections>
+                <selection id="bffa-c51f-f034-9fff" name="Level 1: Marksman" entryId="73da-44ae-248a-eb76::19ec-9c86-9fca-cf36::b2fa-3290-47b5-ca72::b5b2-a1ad-bbf0-b381" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="73da-44ae-248a-eb76::19ec-9c86-9fca-cf36::b2fa-3290-47b5-ca72::aaa1-c9c7-a48f-6a23::476c-6e3d-0038-5251" name="Marksman" publicationId="a467-5f42-pubN89361" page="75" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+                      <characteristics>
+                        <characteristic name="Description" typeId="b373-019d-503a-1124">You can re-roll hit rolls of 1 for this model when it makes a shooting attack.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                  </costs>
+                  <categories>
+                    <category id="9551-9e37-ba84-bc7b" name="Level 1" entryId="6e29-5d9a-98f5-ad2a" primary="false"/>
+                  </categories>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="5b4e-50af-2e4a-7053" name="Plasma caliver" entryId="73da-44ae-248a-eb76::8d71-1f1a-b8a7-486c::ead8-1bbc-9d9e-814e" entryGroupId="73da-44ae-248a-eb76::9720-fd61-bef3-a7cc" number="1" type="upgrade">
+              <profiles>
+                <profile id="73da-44ae-248a-eb76::8d71-1f1a-b8a7-486c::f6d1-63a2-3e51-0831" name="Plasma caliver - Supercharge" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">18&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Assault 2</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">8</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">-3</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">2</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">On an unmodified hit roll of 1, the bearer is taken out of action after all of this weapon’s shots have been resolved.</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="73da-44ae-248a-eb76::8d71-1f1a-b8a7-486c::5898-9a52-d0fe-85be" name="Plasma caliver - Standard" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">18&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Assault 2</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">7</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">-3</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="3.0"/>
+              </costs>
+            </selection>
+            <selection id="1d9b-99b6-9371-c6ac" name="Metalica" entryId="73da-44ae-248a-eb76::d669-7b4b-2b85-898d::3fb2-e102-4e52-cdb8" entryGroupId="73da-44ae-248a-eb76::d669-7b4b-2b85-898d::3cd7-fd53-f027-c343" number="1" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+              <categories>
+                <category id="c80e-4eca-3290-e7f8" name="Metalica" entryId="9e2f-9f27-4293-8bba" primary="false"/>
+              </categories>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="10.0"/>
+          </costs>
+          <categories>
+            <category id="bca6-fbe1-17ca-e112" name="Faction: Adeptus Mechanicus" entryId="5d67-ac66-1e97-ffb3" primary="false"/>
+            <category id="be1a-82bc-98a1-22d9" name="Imperium" entryId="8d6d-8c4b-f475-e74a" primary="false"/>
+            <category id="66cb-d221-a6fc-ef89" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="f726-cca3-8dfd-347f" name="Skitarii" entryId="4b87-3b12-d261-3807" primary="false"/>
+            <category id="29b2-84a0-565c-47b6" name="Skitarii Vanguard" entryId="fea9-19fc-c84f-f079" primary="false"/>
+            <category id="5ef7-3104-c3f4-6814" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="ed14-01ae-2f04-e25d" name="Specialist" entryId="29e7-d60f-5acd-4d99" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="f161-ecc0-dc78-0105" name="Skitarii Vanguard" entryId="ac33-cb70-6ed4-1dd5::bb05-e980-9005-15a4" number="1" type="model">
+          <rules>
+            <rule id="ac33-cb70-6ed4-1dd5::c6dc-c9df-4e94-142f::da55-b94a-f55a-6538" name="Canticles of the Omnissiah" hidden="false">
+              <description>See page 107 of the Kill Team Core Manual.</description>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="ac33-cb70-6ed4-1dd5::f58c-ff4f-3c37-0fa5" name="Skitarii Vanguard" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">6&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">4+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">3+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">3</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">3</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">1</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">6</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">4+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="ac33-cb70-6ed4-1dd5::13ee-bbba-2b28-8c33::4522-7ed7-84c1-b986" name="Bionics" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">This model has a 6+ invulnerable save.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="ac33-cb70-6ed4-1dd5::997e-1521-e783-91e9::99af-ad82-34e5-9f45" name="Rad-saturation" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">Reduce the Toughness characteristic of enemy models by 1 whilst they are within 1&quot; of one or more models with this ability.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="45ca-f807-f081-3b90" name="Radium carbine" entryId="ac33-cb70-6ed4-1dd5::d710-dfcd-2d0e-09a2::8196-3fef-9eda-eb61" number="1" type="upgrade">
+              <profiles>
+                <profile id="ac33-cb70-6ed4-1dd5::d710-dfcd-2d0e-09a2::d3d8-edc3-c5fb-4bcf" name="Radium carbine" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">18&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Assault 3</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">3</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">Each time you make a wound roll of 6+ for this weapon, that hit is resolved with a Damage of 3.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="30f0-609e-f6c5-b6de" name="Omnispex" entryId="ac33-cb70-6ed4-1dd5::8e37-cc6d-5bfd-6ef4::ef48-2950-14d4-5420::277e-0e6b-30ad-853a" entryGroupId="ac33-cb70-6ed4-1dd5::8e37-cc6d-5bfd-6ef4::631d-4178-29d4-d8a8" number="1" type="upgrade">
+              <profiles>
+                <profile id="ac33-cb70-6ed4-1dd5::8e37-cc6d-5bfd-6ef4::ef48-2950-14d4-5420::469e-a8f2-bbd0-2ac5" name="Omnispex" hidden="false" typeId="0883-432d-b2ca-f11a" typeName="Wargear">
+                  <characteristics>
+                    <characteristic name="Ability" typeId="8b56-49a8-40e5-242a">At the start of each Shooting phase you can chose another Skitarii model within 3&quot; of a friendly model equipped with an Omnispex that is not shaken. That model does not suffer penalties to their hit or injury rolls due to their target being obscured.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="1.0"/>
+              </costs>
+            </selection>
+            <selection id="c3aa-4b35-5c15-99a2" name="Comms" entryId="ac33-cb70-6ed4-1dd5::0a63-819f-cc66-744e::7cce-573e-472e-2e44::02a0-4107-4818-7c99" entryGroupId="ac33-cb70-6ed4-1dd5::0a63-819f-cc66-744e::5ae8-c885-6dc3-74b0" number="1" type="upgrade">
+              <selections>
+                <selection id="06ad-e4f7-105f-0dd7" name="Level 1: Scanner" entryId="ac33-cb70-6ed4-1dd5::0a63-819f-cc66-744e::7cce-573e-472e-2e44::91b5-71e4-b90e-3b34" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="ac33-cb70-6ed4-1dd5::0a63-819f-cc66-744e::7cce-573e-472e-2e44::fe35-3bbe-31c6-22e3::fc51-0351-b8c9-fe7e" name="Scanner" publicationId="a467-5f42-pubN89361" page="70" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+                      <characteristics>
+                        <characteristic name="Description" typeId="b373-019d-503a-1124">Once per Shooting phase, if this model is not shaken, when you pick another model from your kill team within 6&quot; of this model to shoot, you can add 1 to hit rolls for that model in this phase.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                  </costs>
+                  <categories>
+                    <category id="a254-0deb-7ec6-758f" name="Level 1" entryId="6e29-5d9a-98f5-ad2a" primary="false"/>
+                  </categories>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="a9f5-697f-6e45-33fb" name="Metalica" entryId="ac33-cb70-6ed4-1dd5::3b62-26e3-e26d-cf54::3fb2-e102-4e52-cdb8" entryGroupId="ac33-cb70-6ed4-1dd5::3b62-26e3-e26d-cf54::3cd7-fd53-f027-c343" number="1" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+              <categories>
+                <category id="925f-37e8-ac00-4bab" name="Metalica" entryId="9e2f-9f27-4293-8bba" primary="false"/>
+              </categories>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="9.0"/>
+          </costs>
+          <categories>
+            <category id="cd48-90db-e565-b4a8" name="Faction: Adeptus Mechanicus" entryId="5d67-ac66-1e97-ffb3" primary="false"/>
+            <category id="470c-390e-7a34-b7b9" name="Imperium" entryId="8d6d-8c4b-f475-e74a" primary="false"/>
+            <category id="5040-1536-023a-27ff" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="c755-1c88-d561-007c" name="Skitarii" entryId="4b87-3b12-d261-3807" primary="false"/>
+            <category id="05e2-bde7-c3a8-2483" name="Skitarii Vanguard" entryId="fea9-19fc-c84f-f079" primary="false"/>
+            <category id="5625-6464-7a69-7ed4" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="3275-3ce2-e050-45ff" name="Specialist" entryId="29e7-d60f-5acd-4d99" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="afe2-70d3-63c0-86fb" name="Skitarii Ranger" entryId="5923-c549-2ce9-bd1d::013d-acd0-bf48-92f5" number="1" type="model">
+          <rules>
+            <rule id="5923-c549-2ce9-bd1d::e0a4-de8e-8505-c5e6::da55-b94a-f55a-6538" name="Canticles of the Omnissiah" hidden="false">
+              <description>See page 107 of the Kill Team Core Manual.</description>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="5923-c549-2ce9-bd1d::0477-09a3-74e2-72e0" name="Skitarii Ranger" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">6&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">4+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">3+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">3</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">3</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">1</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">6</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">4+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="5923-c549-2ce9-bd1d::fcfd-b540-c848-81a3::4522-7ed7-84c1-b986" name="Bionics" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">This model has a 6+ invulnerable save.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="7af2-910e-2926-c914" name="Galvanic rifle" entryId="5923-c549-2ce9-bd1d::0386-9652-d7a9-b6a3::5adb-7661-e95c-c0ae" number="1" type="upgrade">
+              <profiles>
+                <profile id="5923-c549-2ce9-bd1d::0386-9652-d7a9-b6a3::1b05-bc49-3a27-b670" name="Galvanic rifle" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">30&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Rapid Fire 1</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">4</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">Each time you make a wound roll of 6+ for this weapon, that hit is resolved with an AP of -1.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="3727-849f-0cc1-bf49" name="Omnispex" entryId="5923-c549-2ce9-bd1d::fa8b-ff10-0b01-e2aa::053b-e77e-240d-5b0d::277e-0e6b-30ad-853a" entryGroupId="5923-c549-2ce9-bd1d::fa8b-ff10-0b01-e2aa::4f8d-87c9-cb0f-d88e" number="1" type="upgrade">
+              <profiles>
+                <profile id="5923-c549-2ce9-bd1d::fa8b-ff10-0b01-e2aa::053b-e77e-240d-5b0d::469e-a8f2-bbd0-2ac5" name="Omnispex" hidden="false" typeId="0883-432d-b2ca-f11a" typeName="Wargear">
+                  <characteristics>
+                    <characteristic name="Ability" typeId="8b56-49a8-40e5-242a">At the start of each Shooting phase you can chose another Skitarii model within 3&quot; of a friendly model equipped with an Omnispex that is not shaken. That model does not suffer penalties to their hit or injury rolls due to their target being obscured.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="1.0"/>
+              </costs>
+            </selection>
+            <selection id="eea9-797c-0ee3-e724" name="Metalica" entryId="5923-c549-2ce9-bd1d::d4cb-7f30-fab1-6662::3fb2-e102-4e52-cdb8" entryGroupId="5923-c549-2ce9-bd1d::d4cb-7f30-fab1-6662::3cd7-fd53-f027-c343" number="1" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+              <categories>
+                <category id="6322-3914-e42e-9179" name="Metalica" entryId="9e2f-9f27-4293-8bba" primary="false"/>
+              </categories>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="9.0"/>
+          </costs>
+          <categories>
+            <category id="9906-e8b1-17f6-8058" name="Faction: Adeptus Mechanicus" entryId="5d67-ac66-1e97-ffb3" primary="false"/>
+            <category id="56b9-25f5-209f-a41f" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="36e1-8684-1909-f257" name="Imperium" entryId="8d6d-8c4b-f475-e74a" primary="false"/>
+            <category id="4c41-7f42-a39e-1d8c" name="Skitarii" entryId="4b87-3b12-d261-3807" primary="false"/>
+            <category id="f0b4-cdea-bc5a-8ced" name="Skitarii Ranger" entryId="5c18-9aa6-b638-6e17" primary="false"/>
+            <category id="a31e-4ddf-e3fe-e674" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="d79b-ea42-8c10-fcf2" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="0e7b-1c11-08bf-89f6" name="Fulgurite Electro-priest" entryId="7583-2b1b-9966-571f::3a31-de58-0f27-74d5" number="1" type="model">
+          <rules>
+            <rule id="7583-2b1b-9966-571f::2a10-3e9b-6b72-3ed0::da55-b94a-f55a-6538" name="Canticles of the Omnissiah" hidden="false">
+              <description>See page 107 of the Kill Team Core Manual.</description>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="7583-2b1b-9966-571f::7830-fc93-2fe2-2d90" name="Siphoned Vigour" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">If this model takes an enemy model out of action in the Fight phase, its invulnerable save is improved to 3+ for the remainder of the mission.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="7583-2b1b-9966-571f::b731-0d16-e7f5-0337" name="Fulgurite Electro-priest" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">6&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">4+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">3</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">3</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">2</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">8</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">6+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="7583-2b1b-9966-571f::3441-8e31-9979-b8d2::9fcd-2caa-bb62-b74f" name="Fanatical Devotion" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">Each time a model with this ability loses a wound, roll a D6; on a 5+ the model does not lose that wound.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="7583-2b1b-9966-571f::6704-8e46-537b-eae8::19dc-a80f-e31c-10ba" name="Voltagheist Field" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">This model has a 5+ invulnerable save. When this model finishes a charge move within 1&quot; of an enemy model, pick an enemy model within 1&quot; and roll a D6. On a roll of 6 the enemy model suffers a mortal wound.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="5c96-ae30-4bf6-5dd8" name="Electroleech stave" entryId="7583-2b1b-9966-571f::5729-4f64-0f78-95f1" number="1" type="upgrade">
+              <profiles>
+                <profile id="7583-2b1b-9966-571f::c4f2-b7ef-f67a-ee0d" name="Electroleech stave" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">+2</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">-2</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">D3</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">For each wound roll of 6+ for attacks made by this weapon, the target suffers D3 mortal wounds instead of the normal damage.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="7bfc-2427-4951-b01b" name="Combat" entryId="7583-2b1b-9966-571f::3cda-7d30-22d8-9f31::24de-390f-e27d-f5bb::cc58-f869-82d1-b353" entryGroupId="7583-2b1b-9966-571f::3cda-7d30-22d8-9f31::5ae8-c885-6dc3-74b0" number="1" type="upgrade">
+              <selections>
+                <selection id="f40b-179d-2cb5-3a5c" name="Level 1: Expert Fighter" entryId="7583-2b1b-9966-571f::3cda-7d30-22d8-9f31::24de-390f-e27d-f5bb::16da-492c-b6a7-fb5c" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="7583-2b1b-9966-571f::3cda-7d30-22d8-9f31::24de-390f-e27d-f5bb::61e0-eab1-2c31-17ec::c0fe-c084-3f73-2cbf" name="Expert Fighter" publicationId="a467-5f42-pubN89361" page="69" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+                      <characteristics>
+                        <characteristic name="Description" typeId="b373-019d-503a-1124">Add 1 to this model&apos;s Attacks characteristic.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                  </costs>
+                  <categories>
+                    <category id="dff4-a4ba-6fe9-8b24" name="Level 1" entryId="6e29-5d9a-98f5-ad2a" primary="false"/>
+                  </categories>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="e990-e8f1-2847-4417" name="Metalica" entryId="7583-2b1b-9966-571f::bcbb-a734-7001-46ab::3fb2-e102-4e52-cdb8" entryGroupId="7583-2b1b-9966-571f::bcbb-a734-7001-46ab::3cd7-fd53-f027-c343" number="1" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+              <categories>
+                <category id="4b2a-32ed-864e-7957" name="Metalica" entryId="9e2f-9f27-4293-8bba" primary="false"/>
+              </categories>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="14.0"/>
+          </costs>
+          <categories>
+            <category id="4610-e4d9-275d-371d" name="Faction: Adeptus Mechanicus" entryId="5d67-ac66-1e97-ffb3" primary="false"/>
+            <category id="95a0-79f4-a24a-dcee" name="Imperium" entryId="8d6d-8c4b-f475-e74a" primary="false"/>
+            <category id="7469-8a8e-b59a-7e69" name="Cult Mechanicus" entryId="05de-77a8-d7f8-354a" primary="false"/>
+            <category id="92f7-c3d6-d896-9540" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="ccad-61bf-13ae-99a6" name="Electro-priest" entryId="0d62-5055-94aa-9df2" primary="false"/>
+            <category id="af55-0fae-ff20-0767" name="Fulgurite" entryId="4e06-5dd8-a9ec-34eb" primary="false"/>
+            <category id="36dc-5cb4-2b72-7f93" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="b76f-6571-0ef2-1ef0" name="Specialist" entryId="29e7-d60f-5acd-4d99" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="00fc-4fc5-9ef1-b62d" name="Skitarii Ranger Gunner" entryId="8fd4-c193-f61e-eaff::52de-c98a-be07-fb83" number="1" type="model">
+          <rules>
+            <rule id="8fd4-c193-f61e-eaff::e9bf-1636-cf47-aa17::da55-b94a-f55a-6538" name="Canticles of the Omnissiah" hidden="false">
+              <description>See page 107 of the Kill Team Core Manual.</description>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="8fd4-c193-f61e-eaff::16a4-a9da-3886-8b76" name="Skitarii Ranger" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">6&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">4+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">3+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">3</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">3</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">1</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">6</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">4+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">3</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="8fd4-c193-f61e-eaff::e5f5-fe0c-912d-1b8d::4522-7ed7-84c1-b986" name="Bionics" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">This model has a 6+ invulnerable save.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="6734-9728-a94a-06e2" name="Metalica" entryId="8fd4-c193-f61e-eaff::4923-bd04-0cfe-4458::3fb2-e102-4e52-cdb8" entryGroupId="8fd4-c193-f61e-eaff::4923-bd04-0cfe-4458::3cd7-fd53-f027-c343" number="1" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+              <categories>
+                <category id="57e2-10f8-7479-1f29" name="Metalica" entryId="9e2f-9f27-4293-8bba" primary="false"/>
+              </categories>
+            </selection>
+            <selection id="e02b-28a0-1cb5-83df" name="Plasma caliver" entryId="8fd4-c193-f61e-eaff::3d22-6d2c-412f-0b72::ead8-1bbc-9d9e-814e" entryGroupId="8fd4-c193-f61e-eaff::639d-14b5-0ab5-8efe" number="1" type="upgrade">
+              <profiles>
+                <profile id="8fd4-c193-f61e-eaff::3d22-6d2c-412f-0b72::f6d1-63a2-3e51-0831" name="Plasma caliver - Supercharge" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">18&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Assault 2</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">8</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">-3</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">2</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">On an unmodified hit roll of 1, the bearer is taken out of action after all of this weapon’s shots have been resolved.</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="8fd4-c193-f61e-eaff::3d22-6d2c-412f-0b72::5898-9a52-d0fe-85be" name="Plasma caliver - Standard" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">18&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Assault 2</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">7</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">-3</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="3.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="10.0"/>
+          </costs>
+          <categories>
+            <category id="2f60-528d-2c91-1bd6" name="Faction: Adeptus Mechanicus" entryId="5d67-ac66-1e97-ffb3" primary="false"/>
+            <category id="295d-7be3-d4bb-6eba" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="b79f-28ef-3118-602f" name="Imperium" entryId="8d6d-8c4b-f475-e74a" primary="false"/>
+            <category id="ed43-3334-a4fa-4e26" name="Skitarii" entryId="4b87-3b12-d261-3807" primary="false"/>
+            <category id="f03f-6e64-663b-ead2" name="Skitarii Ranger" entryId="5c18-9aa6-b638-6e17" primary="false"/>
+            <category id="933a-5967-7224-d1f9" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="708a-d37b-03a7-9ccc" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="2ed0-e928-3c90-7a5e" name="Infiltrator Princeps" entryId="f5f7-e5af-1685-50c0::6b0c-890c-f000-a374" number="1" type="model">
+          <rules>
+            <rule id="f5f7-e5af-1685-50c0::adb5-eee2-92fe-285a::da55-b94a-f55a-6538" name="Canticles of the Omnissiah" hidden="false">
+              <description>See page 107 of the Kill Team Core Manual.</description>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="f5f7-e5af-1685-50c0::93db-0dbc-95ac-6dcc" name="Infiltrator Princeps" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">8&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">3+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">4</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">3</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">2</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">3</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">7</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">4+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">1</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="f5f7-e5af-1685-50c0::0ada-d393-0810-c673::4522-7ed7-84c1-b986" name="Bionics" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">This model has a 6+ invulnerable save.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="f5f7-e5af-1685-50c0::4b53-87b8-bcf7-8f86::4f53-bd3a-dd3e-751b" name="Neurostatic Aura" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">Subtract 1 from the Leadership characteristic of enemy models whilst they are within 3&quot; of one or more models with this ability.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="d8bd-25c2-fb39-14ba" name="Stubcarbine and Powersword" entryId="f5f7-e5af-1685-50c0::65af-0f2a-ac46-f0e9" entryGroupId="f5f7-e5af-1685-50c0::2bb7-e52f-7d3c-b42c" number="1" type="upgrade">
+              <selections>
+                <selection id="1d61-9a41-41aa-daf8" name="Stubcarbine" entryId="f5f7-e5af-1685-50c0::ed8c-3e27-1f9c-cb06::1131-24c9-fba6-c539" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="f5f7-e5af-1685-50c0::ed8c-3e27-1f9c-cb06::cf5c-bc5b-c221-1a8f" name="Stubcarabine" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">18&quot;</characteristic>
+                        <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Pistol 3</characteristic>
+                        <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">4</characteristic>
+                        <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                        <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                        <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                  </costs>
+                </selection>
+                <selection id="981c-7109-a6f2-8246" name="Power sword" entryId="f5f7-e5af-1685-50c0::77d3-5e60-490c-0b3f::0d2b-a754-6955-62b6" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="f5f7-e5af-1685-50c0::77d3-5e60-490c-0b3f::f3e4-15fa-1697-956a" name="Power sword" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                        <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                        <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">User</characteristic>
+                        <characteristic name="AP" typeId="fc0e-2874-184d-9f64">-3</characteristic>
+                        <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                        <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="10c7-02ee-27cf-82ff" name="Metalica" entryId="f5f7-e5af-1685-50c0::545b-30ec-8e80-f2b0::3fb2-e102-4e52-cdb8" entryGroupId="f5f7-e5af-1685-50c0::545b-30ec-8e80-f2b0::3cd7-fd53-f027-c343" number="1" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+              <categories>
+                <category id="52ec-2b37-4d22-2819" name="Metalica" entryId="9e2f-9f27-4293-8bba" primary="false"/>
+              </categories>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="15.0"/>
+          </costs>
+          <categories>
+            <category id="337a-eb2e-720b-61e8" name="Faction: Adeptus Mechanicus" entryId="5d67-ac66-1e97-ffb3" primary="false"/>
+            <category id="29be-b519-39b1-7861" name="Imperium" entryId="8d6d-8c4b-f475-e74a" primary="false"/>
+            <category id="26d3-1b25-5fcb-364e" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="f2e9-23e6-2bd8-2c41" name="Sicarian Infiltrator" entryId="0a79-6f87-9978-a757" primary="false"/>
+            <category id="e876-11fc-31f3-eeaa" name="Skitarii" entryId="4b87-3b12-d261-3807" primary="false"/>
+            <category id="7585-d929-e0f8-2c49" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="1e52-c1d1-c65d-4699" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="abd5-6a1a-2980-4708" name="Sicarian Infiltrator" entryId="6154-9ef9-05d1-3984::dccd-1449-1a93-a1ae" number="1" type="model">
+          <rules>
+            <rule id="6154-9ef9-05d1-3984::8245-58af-ecb2-2a44::da55-b94a-f55a-6538" name="Canticles of the Omnissiah" hidden="false">
+              <description>See page 107 of the Kill Team Core Manual.</description>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="6154-9ef9-05d1-3984::4b58-aba2-0560-90ee" name="Sicarian Infiltrator" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">8&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">3+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">4</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">3</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">2</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">2</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">6</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">4+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="6154-9ef9-05d1-3984::7392-a1d7-9c43-f60f::4522-7ed7-84c1-b986" name="Bionics" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">This model has a 6+ invulnerable save.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="6154-9ef9-05d1-3984::2019-c2e9-b91a-6906::4f53-bd3a-dd3e-751b" name="Neurostatic Aura" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">Subtract 1 from the Leadership characteristic of enemy models whilst they are within 3&quot; of one or more models with this ability.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="6612-c7df-8613-72ba" name="Flechette Blaster and Taser Goad" entryId="6154-9ef9-05d1-3984::1c75-2bdf-55c2-83c5" entryGroupId="6154-9ef9-05d1-3984::6965-ffd6-a904-cdd5" number="1" type="upgrade">
+              <selections>
+                <selection id="749e-0e99-40aa-d196" name="Flechette blaster" entryId="6154-9ef9-05d1-3984::bfd0-ae6e-f7cf-31e1::8419-226a-6070-ef33" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="6154-9ef9-05d1-3984::bfd0-ae6e-f7cf-31e1::b1bf-5c11-a3e8-f87b" name="Flechette blaster" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">12&quot;</characteristic>
+                        <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Pistol 5</characteristic>
+                        <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">3</characteristic>
+                        <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                        <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                        <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                  </costs>
+                </selection>
+                <selection id="88cb-e2ea-8e50-fa63" name="Taser goad" entryId="6154-9ef9-05d1-3984::0175-b3f2-8a84-cd13::222f-a507-d231-eb60" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="6154-9ef9-05d1-3984::0175-b3f2-8a84-cd13::5b74-af58-2d82-ce4e" name="Taser goad" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                        <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                        <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">+2</characteristic>
+                        <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                        <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                        <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">Each hit roll of 6+ with this weapon causes 3 hits rather than 1.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="1.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="2936-338f-0dc4-e28c" name="Metalica" entryId="6154-9ef9-05d1-3984::5706-095a-daf8-ceb5::3fb2-e102-4e52-cdb8" entryGroupId="6154-9ef9-05d1-3984::5706-095a-daf8-ceb5::3cd7-fd53-f027-c343" number="1" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+              <categories>
+                <category id="433a-e98e-65f2-ffc0" name="Metalica" entryId="9e2f-9f27-4293-8bba" primary="false"/>
+              </categories>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="14.0"/>
+          </costs>
+          <categories>
+            <category id="467e-95b3-6f32-cb2f" name="Faction: Adeptus Mechanicus" entryId="5d67-ac66-1e97-ffb3" primary="false"/>
+            <category id="1ad1-f788-d79f-ff26" name="Imperium" entryId="8d6d-8c4b-f475-e74a" primary="false"/>
+            <category id="3666-18c0-2b2a-51c1" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="ecda-5101-e350-d910" name="Sicarian Infiltrator" entryId="0a79-6f87-9978-a757" primary="false"/>
+            <category id="c116-8e08-613f-cd49" name="Skitarii" entryId="4b87-3b12-d261-3807" primary="false"/>
+            <category id="4c5a-4e22-9188-3b20" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="260f-0888-d1b4-7f19" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="4e87-2ffe-c065-ccf7" name="Sicarian Infiltrator" entryId="6154-9ef9-05d1-3984::dccd-1449-1a93-a1ae" number="1" type="model">
+          <rules>
+            <rule id="6154-9ef9-05d1-3984::8245-58af-ecb2-2a44::da55-b94a-f55a-6538" name="Canticles of the Omnissiah" hidden="false">
+              <description>See page 107 of the Kill Team Core Manual.</description>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="6154-9ef9-05d1-3984::4b58-aba2-0560-90ee" name="Sicarian Infiltrator" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">8&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">3+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">4</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">3</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">2</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">2</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">6</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">4+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="6154-9ef9-05d1-3984::7392-a1d7-9c43-f60f::4522-7ed7-84c1-b986" name="Bionics" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">This model has a 6+ invulnerable save.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="6154-9ef9-05d1-3984::2019-c2e9-b91a-6906::4f53-bd3a-dd3e-751b" name="Neurostatic Aura" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">Subtract 1 from the Leadership characteristic of enemy models whilst they are within 3&quot; of one or more models with this ability.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="31b2-5c40-12f3-a88d" name="Flechette Blaster and Taser Goad" entryId="6154-9ef9-05d1-3984::1c75-2bdf-55c2-83c5" entryGroupId="6154-9ef9-05d1-3984::6965-ffd6-a904-cdd5" number="1" type="upgrade">
+              <selections>
+                <selection id="2d01-c7c6-ce17-da60" name="Flechette blaster" entryId="6154-9ef9-05d1-3984::bfd0-ae6e-f7cf-31e1::8419-226a-6070-ef33" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="6154-9ef9-05d1-3984::bfd0-ae6e-f7cf-31e1::b1bf-5c11-a3e8-f87b" name="Flechette blaster" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">12&quot;</characteristic>
+                        <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Pistol 5</characteristic>
+                        <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">3</characteristic>
+                        <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                        <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                        <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                  </costs>
+                </selection>
+                <selection id="69f8-3bb5-844a-1791" name="Taser goad" entryId="6154-9ef9-05d1-3984::0175-b3f2-8a84-cd13::222f-a507-d231-eb60" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="6154-9ef9-05d1-3984::0175-b3f2-8a84-cd13::5b74-af58-2d82-ce4e" name="Taser goad" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                        <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                        <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">+2</characteristic>
+                        <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                        <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                        <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">Each hit roll of 6+ with this weapon causes 3 hits rather than 1.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="1.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="6b01-058a-d2a7-beb3" name="Metalica" entryId="6154-9ef9-05d1-3984::5706-095a-daf8-ceb5::3fb2-e102-4e52-cdb8" entryGroupId="6154-9ef9-05d1-3984::5706-095a-daf8-ceb5::3cd7-fd53-f027-c343" number="1" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+              <categories>
+                <category id="7dc7-bf4e-f3ab-aaa0" name="Metalica" entryId="9e2f-9f27-4293-8bba" primary="false"/>
+              </categories>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="14.0"/>
+          </costs>
+          <categories>
+            <category id="fb26-6ac3-01a3-b1a3" name="Faction: Adeptus Mechanicus" entryId="5d67-ac66-1e97-ffb3" primary="false"/>
+            <category id="d634-0394-f936-2acd" name="Imperium" entryId="8d6d-8c4b-f475-e74a" primary="false"/>
+            <category id="3d65-55de-216e-669c" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="19f6-f7b9-178d-342f" name="Sicarian Infiltrator" entryId="0a79-6f87-9978-a757" primary="false"/>
+            <category id="15f3-7842-51ce-a3bb" name="Skitarii" entryId="4b87-3b12-d261-3807" primary="false"/>
+            <category id="edc8-e56a-7f61-8812" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="a95e-dc19-3660-53c3" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="ce67-0c03-58a6-c82c" name="Skitarii Ranger" entryId="5923-c549-2ce9-bd1d::013d-acd0-bf48-92f5" number="1" type="model">
+          <rules>
+            <rule id="5923-c549-2ce9-bd1d::e0a4-de8e-8505-c5e6::da55-b94a-f55a-6538" name="Canticles of the Omnissiah" hidden="false">
+              <description>See page 107 of the Kill Team Core Manual.</description>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="5923-c549-2ce9-bd1d::0477-09a3-74e2-72e0" name="Skitarii Ranger" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">6&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">4+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">3+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">3</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">3</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">1</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">6</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">4+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="5923-c549-2ce9-bd1d::fcfd-b540-c848-81a3::4522-7ed7-84c1-b986" name="Bionics" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">This model has a 6+ invulnerable save.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="2bad-32fd-40be-196c" name="Galvanic rifle" entryId="5923-c549-2ce9-bd1d::0386-9652-d7a9-b6a3::5adb-7661-e95c-c0ae" number="1" type="upgrade">
+              <profiles>
+                <profile id="5923-c549-2ce9-bd1d::0386-9652-d7a9-b6a3::1b05-bc49-3a27-b670" name="Galvanic rifle" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">30&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Rapid Fire 1</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">4</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">Each time you make a wound roll of 6+ for this weapon, that hit is resolved with an AP of -1.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="36c9-961b-e88a-0611" name="Metalica" entryId="5923-c549-2ce9-bd1d::d4cb-7f30-fab1-6662::3fb2-e102-4e52-cdb8" entryGroupId="5923-c549-2ce9-bd1d::d4cb-7f30-fab1-6662::3cd7-fd53-f027-c343" number="1" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+              <categories>
+                <category id="28d2-26ee-20f8-f626" name="Metalica" entryId="9e2f-9f27-4293-8bba" primary="false"/>
+              </categories>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="9.0"/>
+          </costs>
+          <categories>
+            <category id="f8f4-ce40-f7da-03c8" name="Faction: Adeptus Mechanicus" entryId="5d67-ac66-1e97-ffb3" primary="false"/>
+            <category id="33e3-70e5-7cc0-a328" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="76e7-b678-3350-1eb3" name="Imperium" entryId="8d6d-8c4b-f475-e74a" primary="false"/>
+            <category id="ac23-ee6c-819e-1107" name="Skitarii" entryId="4b87-3b12-d261-3807" primary="false"/>
+            <category id="6f75-c1e6-d743-ab83" name="Skitarii Ranger" entryId="5c18-9aa6-b638-6e17" primary="false"/>
+            <category id="95d9-cf38-db09-92c3" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="d255-913b-9a4c-fcdb" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
+          </categories>
+        </selection>
+      </selections>
+      <publications>
+        <publication id="ff2c-d2cf-pubN65537" name="Kill Team - Core Manual, Kill Team - Commanders"/>
+        <publication id="69e0-b697-c118-d32d" name="Kill Team Annual 2019"/>
+        <publication id="701a-4a21-90a2-7618" name="Elites"/>
+        <publication id="ff2c-d2cf-pubN79124" name="Kill Team - Core manual"/>
+        <publication id="a467-5f42-pubN89361" name="Core Manual"/>
+        <publication id="a467-5f42-pubN90767" name="Rogue Trader"/>
+        <publication id="27d3-34b5-e6cf-69e3" name="Commanders"/>
+      </publications>
+      <categories>
+        <category id="1868-e19a-4ad9-59e7" name="Uncategorised" entryId="(No Category)" primary="false"/>
+        <category id="cd24-990a-a198-5dbd" name="Configuration" entryId="f868-bdfd-567c-3eac" primary="false"/>
+        <category id="6fe3-b04a-e16d-c1d2" name="Commander" entryId="6c25-5825-9054-44a7" primary="false"/>
+        <category id="ee1f-e2b4-a79e-abc9" name="Leader" entryId="ade4-0710-e40e-be3f" primary="false"/>
+        <category id="ecf5-0357-e070-7fab" name="Specialists" entryId="29e7-d60f-5acd-4d99" primary="false"/>
+        <category id="3c14-7e5c-b1e6-515a" name="Specialist Retainers" entryId="181f-e47f-6ec3-2e9b" primary="false"/>
+        <category id="95c8-63b8-f3b3-802c" name="Non-specialists" entryId="79c6-76fc-47ee-c005" primary="false"/>
+      </categories>
+    </force>
+  </forces>
+</roster>

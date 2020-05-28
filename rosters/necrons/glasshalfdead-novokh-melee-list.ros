@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<roster id="a263-84b1-9b8c-9445" name="GlassHalfDead&apos;s Novokh melee list" battleScribeVersion="2.03" gameSystemId="a467-5f42-d24c-6e5b" gameSystemName="Warhammer 40,000: Kill Team (2018)" gameSystemRevision="39" xmlns="http://www.battlescribe.net/schema/rosterSchema">
+  <costs>
+    <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="122.0"/>
+  </costs>
+  <costLimits>
+    <costLimit name="pts" typeId="5291-dc2c-cfa5-a77f" value="125.0"/>
+  </costLimits>
+  <forces>
+    <force id="6901-3aaa-ea3f-c635" name="Kill Team List" entryId="cf61-9e5a-51cd-b4d2" catalogueId="d1bc-0b71-2f3d-71eb" catalogueRevision="14" catalogueName="Necrons">
+      <rules>
+        <rule id="8987-4dd6-f243-8e6c" name="Awakened by Murder (Novokh)" hidden="false">
+          <description>You can re-roll failed hit rolls in the Fight phase for attacks made by a model in your kill team if it charged, was charged, or made a pile-in move granted by the Heroic Intervention Commander Tactic in that battle round.</description>
+        </rule>
+      </rules>
+      <selections>
+        <selection id="0f84-4cdc-9f5b-278c" name="List Configuration" entryId="5c5e-a332-5578-705f::24de-9906-6401-a20e" number="1" type="upgrade">
+          <selections>
+            <selection id="01e4-1a87-25ff-508c" name="Matched Play: Kill Team" entryId="5c5e-a332-5578-705f::46a8-9e97-401a-03f7" entryGroupId="5c5e-a332-5578-705f::a763-c901-e2be-22eb" number="1" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+              <categories>
+                <category id="a671-57a1-47d5-fd2f" name="Style: Matched" entryId="c502-39de-965b-6780" primary="false"/>
+                <category id="152f-23dc-da58-6bcb" name="List: Kill Team" entryId="beaf-798d-961f-353d" primary="false"/>
+                <category id="0c6d-774b-aa03-578f" name="List: Battle-Forged Kill Team" entryId="c0f7-c442-b695-bf07" primary="false"/>
+              </categories>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="82d6-09f8-05a7-29bb" name="Configuration" entryId="f868-bdfd-567c-3eac" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="192f-4787-b4ef-59e5" name="Immortal" entryId="02d4-09c1-3506-61fe::040a-73a0-6c8d-2733" number="1" type="model">
+          <profiles>
+            <profile id="02d4-09c1-3506-61fe::00dd-c253-8501-ea37" name="Immortal" publicationId="d1bc-0b71-pubN66483" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">5&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">3+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">4</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">4</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">1</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">10</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">3+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908"/>
+              </characteristics>
+            </profile>
+            <profile id="02d4-09c1-3506-61fe::570d-91f8-191f-59e3::852a-30a1-d93a-8bd4" name="Reanimation Protocols" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">When an Injury roll is made for this model, on an unmodified roll of 6 the model is not taken out of action and does not suffer a flesh wound.  Instead it is restored to 1 wound remaining with no flesh wounds.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="29d1-ad9c-6f9b-2293" name="Novokh" entryId="02d4-09c1-3506-61fe::5edc-7637-4ed1-4d05::5517-78e5-8921-62cc" entryGroupId="02d4-09c1-3506-61fe::5edc-7637-4ed1-4d05::644a-2bc2-69ca-b770" number="1" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+              <categories>
+                <category id="8408-9688-5840-b874" name="Novokh" entryId="ef07-76a9-5bd5-28c2" primary="false"/>
+              </categories>
+            </selection>
+            <selection id="ccc5-2ce9-d3a9-670c" name="Leader" entryId="02d4-09c1-3506-61fe::5d94-2180-8a30-0a40::db1e-ea50-07e5-c0a4::2abd-70f4-e7e8-4d18" entryGroupId="02d4-09c1-3506-61fe::5d94-2180-8a30-0a40::9654-238a-3415-2111" number="1" type="upgrade">
+              <selections>
+                <selection id="b5ba-5eec-69ae-4213" name="Level 1: Resourceful" entryId="02d4-09c1-3506-61fe::5d94-2180-8a30-0a40::db1e-ea50-07e5-c0a4::49c6-1aa8-c120-1cf1" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="02d4-09c1-3506-61fe::5d94-2180-8a30-0a40::db1e-ea50-07e5-c0a4::0827-f431-3c0e-66c0::b8d6-5870-939e-3cdf" name="Resourceful" publicationId="a467-5f42-pubN89361" page="68" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+                      <characteristics>
+                        <characteristic name="Description" typeId="b373-019d-503a-1124">As long as this model is on the battlefield and not shaken, you gain an additional Command Point at the beginning of the battle round.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                  </costs>
+                  <categories>
+                    <category id="93a1-6652-b5cf-32d9" name="Level 1" entryId="6e29-5d9a-98f5-ad2a" primary="false"/>
+                  </categories>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="1e99-648a-9a00-8f4f" name="Tesla Carbine" entryId="02d4-09c1-3506-61fe::b5fd-3e5b-6faf-2d64" entryGroupId="02d4-09c1-3506-61fe::d145-98a7-08a0-70d2" number="1" type="upgrade">
+              <profiles>
+                <profile id="02d4-09c1-3506-61fe::1231-6856-dcdd-49f5" name="Tesla Carbine" publicationId="d1bc-0b71-pubN66483" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">24&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Assault 2</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">5</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">Each unmodified hit roll of 6 with this weapon causes 3 hits.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="16.0"/>
+          </costs>
+          <categories>
+            <category id="27f3-0682-5032-5672" name="Faction: Necrons" entryId="3195-75bf-43ec-d189" primary="false"/>
+            <category id="44dd-456b-e68a-e9c6" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="4a31-7bdc-331a-4421" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="5654-f51f-40fa-77f0" name="Immortal" entryId="542c-6b12-2956-b9d1" primary="false"/>
+            <category id="6ab9-1706-e8e0-4dd9" name="Leader" entryId="ade4-0710-e40e-be3f" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="9867-757f-ffc9-235e" name="Flayed One" entryId="b8f9-32cf-55fd-e7dc::1096-6337-5521-2b3a" number="1" type="model">
+          <profiles>
+            <profile id="b8f9-32cf-55fd-e7dc::79e8-f843-cbae-d044" name="Flayed One" publicationId="d1bc-0b71-pubN66483" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">5&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">6+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">4</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">4</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">3</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">10</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">4+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908"/>
+              </characteristics>
+            </profile>
+            <profile id="b8f9-32cf-55fd-e7dc::3c0f-6f0d-ce35-ce14::852a-30a1-d93a-8bd4" name="Reanimation Protocols" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">When an Injury roll is made for this model, on an unmodified roll of 6 the model is not taken out of action and does not suffer a flesh wound.  Instead it is restored to 1 wound remaining with no flesh wounds.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="c5ac-9771-1026-85c2" name="Flayer Claws" entryId="b8f9-32cf-55fd-e7dc::0e0b-2f70-7467-9da8" number="1" type="upgrade">
+              <profiles>
+                <profile id="b8f9-32cf-55fd-e7dc::4614-2db6-c9fb-3bed" name="Flayer Claws" publicationId="d1bc-0b71-pubN66483" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">User</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">Re-roll failed wound rolls for this weapon.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="4196-7f3f-53f0-f9cf" name="Novokh" entryId="b8f9-32cf-55fd-e7dc::0163-14fb-8ce0-c065::5517-78e5-8921-62cc" entryGroupId="b8f9-32cf-55fd-e7dc::0163-14fb-8ce0-c065::644a-2bc2-69ca-b770" number="1" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+              <categories>
+                <category id="fbd3-f137-0777-3503" name="Novokh" entryId="ef07-76a9-5bd5-28c2" primary="false"/>
+              </categories>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="10.0"/>
+          </costs>
+          <categories>
+            <category id="b37b-c922-54bf-64ef" name="Faction: Necrons" entryId="3195-75bf-43ec-d189" primary="false"/>
+            <category id="4dbb-f495-ce3e-445a" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="a185-5bb1-f7ab-ee8e" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="d5af-60c7-3cf5-8923" name="Flayed One" entryId="9da5-9460-5e81-4717" primary="false"/>
+            <category id="a328-4ec7-f71a-34c1" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="a7e6-0682-e803-2fcc" name="Flayed One" entryId="b8f9-32cf-55fd-e7dc::1096-6337-5521-2b3a" number="1" type="model">
+          <profiles>
+            <profile id="b8f9-32cf-55fd-e7dc::79e8-f843-cbae-d044" name="Flayed One" publicationId="d1bc-0b71-pubN66483" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">5&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">6+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">4</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">4</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">3</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">10</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">4+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908"/>
+              </characteristics>
+            </profile>
+            <profile id="b8f9-32cf-55fd-e7dc::3c0f-6f0d-ce35-ce14::852a-30a1-d93a-8bd4" name="Reanimation Protocols" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">When an Injury roll is made for this model, on an unmodified roll of 6 the model is not taken out of action and does not suffer a flesh wound.  Instead it is restored to 1 wound remaining with no flesh wounds.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="4af0-aa9c-af2a-0bde" name="Flayer Claws" entryId="b8f9-32cf-55fd-e7dc::0e0b-2f70-7467-9da8" number="1" type="upgrade">
+              <profiles>
+                <profile id="b8f9-32cf-55fd-e7dc::4614-2db6-c9fb-3bed" name="Flayer Claws" publicationId="d1bc-0b71-pubN66483" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">User</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">Re-roll failed wound rolls for this weapon.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="7f05-93e5-31b3-1b1e" name="Novokh" entryId="b8f9-32cf-55fd-e7dc::0163-14fb-8ce0-c065::5517-78e5-8921-62cc" entryGroupId="b8f9-32cf-55fd-e7dc::0163-14fb-8ce0-c065::644a-2bc2-69ca-b770" number="1" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+              <categories>
+                <category id="6278-6668-ee54-05a9" name="Novokh" entryId="ef07-76a9-5bd5-28c2" primary="false"/>
+              </categories>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="10.0"/>
+          </costs>
+          <categories>
+            <category id="11da-715c-478a-c977" name="Faction: Necrons" entryId="3195-75bf-43ec-d189" primary="false"/>
+            <category id="df07-adcc-429b-408e" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="0e35-9911-90cb-c25d" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="b215-3b20-fb04-65a6" name="Flayed One" entryId="9da5-9460-5e81-4717" primary="false"/>
+            <category id="f723-49fc-119b-d2c7" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="1114-1ac6-df4a-1a41" name="Flayed One" entryId="b8f9-32cf-55fd-e7dc::1096-6337-5521-2b3a" number="1" type="model">
+          <profiles>
+            <profile id="b8f9-32cf-55fd-e7dc::79e8-f843-cbae-d044" name="Flayed One" publicationId="d1bc-0b71-pubN66483" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">5&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">6+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">4</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">4</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">3</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">10</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">4+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908"/>
+              </characteristics>
+            </profile>
+            <profile id="b8f9-32cf-55fd-e7dc::3c0f-6f0d-ce35-ce14::852a-30a1-d93a-8bd4" name="Reanimation Protocols" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">When an Injury roll is made for this model, on an unmodified roll of 6 the model is not taken out of action and does not suffer a flesh wound.  Instead it is restored to 1 wound remaining with no flesh wounds.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="81ff-a8bc-3d47-d2bb" name="Flayer Claws" entryId="b8f9-32cf-55fd-e7dc::0e0b-2f70-7467-9da8" number="1" type="upgrade">
+              <profiles>
+                <profile id="b8f9-32cf-55fd-e7dc::4614-2db6-c9fb-3bed" name="Flayer Claws" publicationId="d1bc-0b71-pubN66483" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">User</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">Re-roll failed wound rolls for this weapon.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="c246-5d3e-6872-09fa" name="Novokh" entryId="b8f9-32cf-55fd-e7dc::0163-14fb-8ce0-c065::5517-78e5-8921-62cc" entryGroupId="b8f9-32cf-55fd-e7dc::0163-14fb-8ce0-c065::644a-2bc2-69ca-b770" number="1" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+              <categories>
+                <category id="e005-d50e-cd85-c4e3" name="Novokh" entryId="ef07-76a9-5bd5-28c2" primary="false"/>
+              </categories>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="10.0"/>
+          </costs>
+          <categories>
+            <category id="cf10-7c29-a258-6e40" name="Faction: Necrons" entryId="3195-75bf-43ec-d189" primary="false"/>
+            <category id="4670-9083-1335-864c" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="cba9-0f2a-5c94-ffed" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="efd2-ec97-d78d-827e" name="Flayed One" entryId="9da5-9460-5e81-4717" primary="false"/>
+            <category id="782f-6657-aa7b-d734" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="7c0a-9c44-fd05-bda7" name="Flayed One" entryId="b8f9-32cf-55fd-e7dc::1096-6337-5521-2b3a" number="1" type="model">
+          <profiles>
+            <profile id="b8f9-32cf-55fd-e7dc::79e8-f843-cbae-d044" name="Flayed One" publicationId="d1bc-0b71-pubN66483" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">5&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">6+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">4</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">4</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">3</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">10</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">4+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908"/>
+              </characteristics>
+            </profile>
+            <profile id="b8f9-32cf-55fd-e7dc::3c0f-6f0d-ce35-ce14::852a-30a1-d93a-8bd4" name="Reanimation Protocols" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">When an Injury roll is made for this model, on an unmodified roll of 6 the model is not taken out of action and does not suffer a flesh wound.  Instead it is restored to 1 wound remaining with no flesh wounds.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="b359-451b-007b-a445" name="Flayer Claws" entryId="b8f9-32cf-55fd-e7dc::0e0b-2f70-7467-9da8" number="1" type="upgrade">
+              <profiles>
+                <profile id="b8f9-32cf-55fd-e7dc::4614-2db6-c9fb-3bed" name="Flayer Claws" publicationId="d1bc-0b71-pubN66483" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">User</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">Re-roll failed wound rolls for this weapon.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="8bd1-f42b-251b-44bf" name="Novokh" entryId="b8f9-32cf-55fd-e7dc::0163-14fb-8ce0-c065::5517-78e5-8921-62cc" entryGroupId="b8f9-32cf-55fd-e7dc::0163-14fb-8ce0-c065::644a-2bc2-69ca-b770" number="1" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+              <categories>
+                <category id="7032-75a9-937f-c3a5" name="Novokh" entryId="ef07-76a9-5bd5-28c2" primary="false"/>
+              </categories>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="10.0"/>
+          </costs>
+          <categories>
+            <category id="2574-9aad-2642-465d" name="Faction: Necrons" entryId="3195-75bf-43ec-d189" primary="false"/>
+            <category id="20fb-4ffa-392a-61b8" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="ddf7-a95c-bf27-941b" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="b63a-3a08-91cd-6e32" name="Flayed One" entryId="9da5-9460-5e81-4717" primary="false"/>
+            <category id="b7c8-0870-0ead-cd37" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="ac0c-0f49-bee8-27b5" name="Flayed One" entryId="b8f9-32cf-55fd-e7dc::1096-6337-5521-2b3a" number="1" type="model">
+          <profiles>
+            <profile id="b8f9-32cf-55fd-e7dc::79e8-f843-cbae-d044" name="Flayed One" publicationId="d1bc-0b71-pubN66483" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">5&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">6+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">4</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">4</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">3</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">10</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">4+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908"/>
+              </characteristics>
+            </profile>
+            <profile id="b8f9-32cf-55fd-e7dc::3c0f-6f0d-ce35-ce14::852a-30a1-d93a-8bd4" name="Reanimation Protocols" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">When an Injury roll is made for this model, on an unmodified roll of 6 the model is not taken out of action and does not suffer a flesh wound.  Instead it is restored to 1 wound remaining with no flesh wounds.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="ce92-62c5-61db-4867" name="Flayer Claws" entryId="b8f9-32cf-55fd-e7dc::0e0b-2f70-7467-9da8" number="1" type="upgrade">
+              <profiles>
+                <profile id="b8f9-32cf-55fd-e7dc::4614-2db6-c9fb-3bed" name="Flayer Claws" publicationId="d1bc-0b71-pubN66483" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">User</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">Re-roll failed wound rolls for this weapon.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="d86b-c1ef-72e5-ec16" name="Novokh" entryId="b8f9-32cf-55fd-e7dc::0163-14fb-8ce0-c065::5517-78e5-8921-62cc" entryGroupId="b8f9-32cf-55fd-e7dc::0163-14fb-8ce0-c065::644a-2bc2-69ca-b770" number="1" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+              <categories>
+                <category id="d88c-6988-1534-78f0" name="Novokh" entryId="ef07-76a9-5bd5-28c2" primary="false"/>
+              </categories>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="10.0"/>
+          </costs>
+          <categories>
+            <category id="2916-1539-a616-37be" name="Faction: Necrons" entryId="3195-75bf-43ec-d189" primary="false"/>
+            <category id="eb74-ea10-ee3c-f513" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="f79e-e24d-6156-257e" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="6c8b-1423-f99c-1de7" name="Flayed One" entryId="9da5-9460-5e81-4717" primary="false"/>
+            <category id="7656-054d-79f2-27a4" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="4970-46b9-b5e0-caa8" name="Flayed One" entryId="1778-6a6a-4248-309e::1096-6337-5521-2b3a" number="1" type="model">
+          <profiles>
+            <profile id="1778-6a6a-4248-309e::79e8-f843-cbae-d044" name="Flayed One" publicationId="d1bc-0b71-pubN66483" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">5&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">6+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">4</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">4</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">3</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">10</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">4+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908"/>
+              </characteristics>
+            </profile>
+            <profile id="1778-6a6a-4248-309e::3c0f-6f0d-ce35-ce14::852a-30a1-d93a-8bd4" name="Reanimation Protocols" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">When an Injury roll is made for this model, on an unmodified roll of 6 the model is not taken out of action and does not suffer a flesh wound.  Instead it is restored to 1 wound remaining with no flesh wounds.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="7d5e-73bd-bfe1-b407" name="Flayer Claws" entryId="1778-6a6a-4248-309e::0e0b-2f70-7467-9da8" number="1" type="upgrade">
+              <profiles>
+                <profile id="1778-6a6a-4248-309e::4614-2db6-c9fb-3bed" name="Flayer Claws" publicationId="d1bc-0b71-pubN66483" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">User</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">Re-roll failed wound rolls for this weapon.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="2377-d8d5-9caf-3db0" name="Novokh" entryId="1778-6a6a-4248-309e::0163-14fb-8ce0-c065::5517-78e5-8921-62cc" entryGroupId="1778-6a6a-4248-309e::0163-14fb-8ce0-c065::644a-2bc2-69ca-b770" number="1" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+              <categories>
+                <category id="c763-2939-ba21-6e70" name="Novokh" entryId="ef07-76a9-5bd5-28c2" primary="false"/>
+              </categories>
+            </selection>
+            <selection id="0344-be9f-6a5a-23a2" name="Zealot" entryId="1778-6a6a-4248-309e::7709-3b79-e30b-ba75::eea3-365d-a933-1914::d2c4-34ca-f2cf-d2b2" entryGroupId="1778-6a6a-4248-309e::7709-3b79-e30b-ba75::9654-238a-3415-2111" number="1" type="upgrade">
+              <selections>
+                <selection id="ffdd-74b0-830c-f11f" name="Level 1: Frenzied" entryId="1778-6a6a-4248-309e::7709-3b79-e30b-ba75::eea3-365d-a933-1914::1115-fada-66e5-715f" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="1778-6a6a-4248-309e::7709-3b79-e30b-ba75::eea3-365d-a933-1914::bafa-b1f1-f42a-5322::f84b-7f78-4ca7-7c19" name="Frenzied" publicationId="a467-5f42-pubN89361" page="77" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+                      <characteristics>
+                        <characteristic name="Description" typeId="b373-019d-503a-1124">You can add 1 to this model&apos;s Attacks and Strength characteristics in a battle round in which they charged.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                  </costs>
+                  <categories>
+                    <category id="53dc-5020-5acb-f605" name="Level 1" entryId="6e29-5d9a-98f5-ad2a" primary="false"/>
+                  </categories>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="10.0"/>
+          </costs>
+          <categories>
+            <category id="080b-26c8-298b-31cd" name="Faction: Necrons" entryId="3195-75bf-43ec-d189" primary="false"/>
+            <category id="419c-d469-86eb-befa" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="48da-40e3-2912-0ee4" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="5dfc-1c9b-b9f0-2482" name="Flayed One" entryId="9da5-9460-5e81-4717" primary="false"/>
+            <category id="d39f-abaa-3ece-a68c" name="Specialist" entryId="29e7-d60f-5acd-4d99" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="b1bf-50b7-2dd0-8ed1" name="Lychguard" entryId="4754-c987-3478-404b::6277-b9ab-001c-b557" number="1" type="model">
+          <profiles>
+            <profile id="4754-c987-3478-404b::2e45-eeea-6531-f441" name="Lychguard" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">5&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">3+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">5</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">5</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">2</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">2</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">10</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">3+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="4754-c987-3478-404b::7128-39f2-9ea8-f925" name="Guardian Protocols" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">Roll a D6 each time a COMMANDER loses a wound whilst they are within 3&quot; of any friendly models with this ability; on a 2+ choose one of those models to intercept that hit - the COMMANDER does not lose a wound but the model you chose suffers a mortal wound.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="4754-c987-3478-404b::d1cb-abf7-4567-b972::852a-30a1-d93a-8bd4" name="Reanimation Protocols" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">When an Injury roll is made for this model, on an unmodified roll of 6 the model is not taken out of action and does not suffer a flesh wound.  Instead it is restored to 1 wound remaining with no flesh wounds.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="1cff-781a-454d-de5d" name="Warscythe" entryId="4754-c987-3478-404b::9c41-7a86-d31f-07bc" entryGroupId="4754-c987-3478-404b::c189-87d8-e39e-fcdb" number="1" type="upgrade">
+              <profiles>
+                <profile id="4754-c987-3478-404b::6396-c827-41b8-02a2" name="Warscythe" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">+2</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">-4</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">2</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="2c6b-3e39-9551-a806" name="Novokh" entryId="4754-c987-3478-404b::25c4-01e6-8731-3e52::5517-78e5-8921-62cc" entryGroupId="4754-c987-3478-404b::25c4-01e6-8731-3e52::644a-2bc2-69ca-b770" number="1" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+              <categories>
+                <category id="66b0-1d01-6666-690e" name="Novokh" entryId="ef07-76a9-5bd5-28c2" primary="false"/>
+              </categories>
+            </selection>
+            <selection id="20fb-cc7b-9cba-da89" name="Combat" entryId="4754-c987-3478-404b::f6e1-caf6-0070-9861::3bbb-16f1-61f2-9cac::cc58-f869-82d1-b353" entryGroupId="4754-c987-3478-404b::f6e1-caf6-0070-9861::9654-238a-3415-2111" number="1" type="upgrade">
+              <selections>
+                <selection id="d03c-2b58-e450-84bf" name="Level 1: Expert Fighter" entryId="4754-c987-3478-404b::f6e1-caf6-0070-9861::3bbb-16f1-61f2-9cac::16da-492c-b6a7-fb5c" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="4754-c987-3478-404b::f6e1-caf6-0070-9861::3bbb-16f1-61f2-9cac::61e0-eab1-2c31-17ec::c0fe-c084-3f73-2cbf" name="Expert Fighter" publicationId="a467-5f42-pubN89361" page="69" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+                      <characteristics>
+                        <characteristic name="Description" typeId="b373-019d-503a-1124">Add 1 to this model&apos;s Attacks characteristic.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                  </costs>
+                  <categories>
+                    <category id="a3b6-1a82-8c98-0744" name="Level 1" entryId="6e29-5d9a-98f5-ad2a" primary="false"/>
+                  </categories>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="20.0"/>
+          </costs>
+          <categories>
+            <category id="0fb4-a3ed-a8ff-fdd4" name="Faction: Necrons" entryId="3195-75bf-43ec-d189" primary="false"/>
+            <category id="77b2-9d81-764b-4bb5" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="8f56-ad6d-b288-e2ff" name="Lychguard" entryId="7758-9ca8-4d2f-34a2" primary="false"/>
+            <category id="60d5-264e-8850-48dc" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="50b3-00ed-b997-0091" name="Specialist" entryId="29e7-d60f-5acd-4d99" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="f17f-fa5c-c118-975c" name="Flayed One" entryId="1778-6a6a-4248-309e::1096-6337-5521-2b3a" number="1" type="model">
+          <profiles>
+            <profile id="1778-6a6a-4248-309e::79e8-f843-cbae-d044" name="Flayed One" publicationId="d1bc-0b71-pubN66483" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">5&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">6+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">4</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">4</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">3</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">10</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">4+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908"/>
+              </characteristics>
+            </profile>
+            <profile id="1778-6a6a-4248-309e::3c0f-6f0d-ce35-ce14::852a-30a1-d93a-8bd4" name="Reanimation Protocols" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">When an Injury roll is made for this model, on an unmodified roll of 6 the model is not taken out of action and does not suffer a flesh wound.  Instead it is restored to 1 wound remaining with no flesh wounds.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="5309-9f12-d1a4-9467" name="Flayer Claws" entryId="1778-6a6a-4248-309e::0e0b-2f70-7467-9da8" number="1" type="upgrade">
+              <profiles>
+                <profile id="1778-6a6a-4248-309e::4614-2db6-c9fb-3bed" name="Flayer Claws" publicationId="d1bc-0b71-pubN66483" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">User</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">Re-roll failed wound rolls for this weapon.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="291e-0d75-2dca-ad80" name="Veteran" entryId="1778-6a6a-4248-309e::7709-3b79-e30b-ba75::0ecf-6840-179d-72d3::c89e-5e73-276f-cc16" entryGroupId="1778-6a6a-4248-309e::7709-3b79-e30b-ba75::9654-238a-3415-2111" number="1" type="upgrade">
+              <selections>
+                <selection id="474e-d9ee-9682-63f9" name="Level 1: Grizzled" entryId="1778-6a6a-4248-309e::7709-3b79-e30b-ba75::0ecf-6840-179d-72d3::2b7e-30df-e559-be77" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="1778-6a6a-4248-309e::7709-3b79-e30b-ba75::0ecf-6840-179d-72d3::804c-4282-5c97-f5f7::57a0-c58a-4425-5d9d" name="Grizzled" publicationId="a467-5f42-pubN89361" page="76" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+                      <characteristics>
+                        <characteristic name="Description" typeId="b373-019d-503a-1124">This model ignores penalties to its Leadership characteristic and Nerve tests.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                  </costs>
+                  <categories>
+                    <category id="32f7-3d0d-0f29-ea8f" name="Level 1" entryId="6e29-5d9a-98f5-ad2a" primary="false"/>
+                  </categories>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="b0b8-a409-3ca7-5c42" name="Novokh" entryId="1778-6a6a-4248-309e::0163-14fb-8ce0-c065::5517-78e5-8921-62cc" entryGroupId="1778-6a6a-4248-309e::0163-14fb-8ce0-c065::644a-2bc2-69ca-b770" number="1" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+              <categories>
+                <category id="ceb6-d619-cc10-e5a1" name="Novokh" entryId="ef07-76a9-5bd5-28c2" primary="false"/>
+              </categories>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="10.0"/>
+          </costs>
+          <categories>
+            <category id="571b-4297-562d-5371" name="Faction: Necrons" entryId="3195-75bf-43ec-d189" primary="false"/>
+            <category id="b343-b2c9-f4b9-9b8b" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="e64d-3b4b-6962-05f4" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="ee03-283d-5ae5-4657" name="Flayed One" entryId="9da5-9460-5e81-4717" primary="false"/>
+            <category id="a9f8-a81c-7b53-fee4" name="Specialist" entryId="29e7-d60f-5acd-4d99" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="5381-4323-ce5c-7c7e" name="Immortal" entryId="6134-0670-dd5f-af8a::040a-73a0-6c8d-2733" number="1" type="model">
+          <profiles>
+            <profile id="6134-0670-dd5f-af8a::00dd-c253-8501-ea37" name="Immortal" publicationId="d1bc-0b71-pubN66483" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">5&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">3+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">4</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">4</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">1</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">10</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">3+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908"/>
+              </characteristics>
+            </profile>
+            <profile id="6134-0670-dd5f-af8a::570d-91f8-191f-59e3::852a-30a1-d93a-8bd4" name="Reanimation Protocols" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">When an Injury roll is made for this model, on an unmodified roll of 6 the model is not taken out of action and does not suffer a flesh wound.  Instead it is restored to 1 wound remaining with no flesh wounds.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="b16f-67f9-7b5e-4236" name="Gauss Blaster" entryId="6134-0670-dd5f-af8a::75e7-d5ac-1457-2d49" entryGroupId="6134-0670-dd5f-af8a::d145-98a7-08a0-70d2" number="1" type="upgrade">
+              <profiles>
+                <profile id="6134-0670-dd5f-af8a::1358-2e18-6d05-c53f" name="Gauss Blaster" publicationId="d1bc-0b71-pubN66483" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">24&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Rapid Fire 1</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">5</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">-2</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="0ece-7226-aa9b-9fa1" name="Novokh" entryId="6134-0670-dd5f-af8a::5edc-7637-4ed1-4d05::5517-78e5-8921-62cc" entryGroupId="6134-0670-dd5f-af8a::5edc-7637-4ed1-4d05::644a-2bc2-69ca-b770" number="1" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+              <categories>
+                <category id="b7f6-eb7f-f47d-a3ea" name="Novokh" entryId="ef07-76a9-5bd5-28c2" primary="false"/>
+              </categories>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="16.0"/>
+          </costs>
+          <categories>
+            <category id="79b7-e678-7862-591a" name="Faction: Necrons" entryId="3195-75bf-43ec-d189" primary="false"/>
+            <category id="b22f-4e71-c2b5-d759" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="1d53-c8dc-933e-4578" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="afad-14ce-559f-68fd" name="Immortal" entryId="542c-6b12-2956-b9d1" primary="false"/>
+            <category id="0828-6214-30fd-4d53" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
+          </categories>
+        </selection>
+      </selections>
+      <publications>
+        <publication id="d1bc-0b71-pubN66483" name="Codex: Necrons"/>
+        <publication id="d1bc-0b71-pubN66681" name="Kill-Team"/>
+        <publication id="d1bc-0b71-pubN68477" name="Kill Team: Commanders"/>
+        <publication id="69e0-b697-c118-d32d" name="Kill Team Annual 2019"/>
+        <publication id="701a-4a21-90a2-7618" name="Elites"/>
+        <publication id="a467-5f42-pubN89361" name="Core Manual"/>
+        <publication id="d1bc-0b71-pubN65537" name="Warhammer 40,000: Kill Team"/>
+        <publication id="a467-5f42-pubN90767" name="Rogue Trader"/>
+        <publication id="27d3-34b5-e6cf-69e3" name="Commanders"/>
+      </publications>
+      <categories>
+        <category id="2404-3873-e0e0-9d26" name="Uncategorised" entryId="(No Category)" primary="false"/>
+        <category id="a472-0608-4cd4-f9a9" name="Configuration" entryId="f868-bdfd-567c-3eac" primary="false"/>
+        <category id="6265-5072-b801-371b" name="Commander" entryId="6c25-5825-9054-44a7" primary="false"/>
+        <category id="feda-fdc0-2d78-5802" name="Leader" entryId="ade4-0710-e40e-be3f" primary="false"/>
+        <category id="ba6f-d3ce-54a3-73d1" name="Specialists" entryId="29e7-d60f-5acd-4d99" primary="false"/>
+        <category id="0b69-a499-99ed-fd1c" name="Specialist Retainers" entryId="181f-e47f-6ec3-2e9b" primary="false"/>
+        <category id="318b-1092-ecba-2097" name="Non-specialists" entryId="79c6-76fc-47ee-c005" primary="false"/>
+      </categories>
+    </force>
+  </forces>
+</roster>
